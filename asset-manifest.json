@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/resume-website/static/css/main.3509241a.css",
+    "main.css": "/resume-website/static/css/main.b3e2a37d.css",
     "main.js": "/resume-website/static/js/main.832cb49b.js",
     "static/media/SecurityCam4.png": "/resume-website/static/media/SecurityCam4.e3cc3251d486a36124c1.png",
     "static/media/SecurityCam.png": "/resume-website/static/media/SecurityCam.8e6e11948d8312baf50f.png",
@@ -23,11 +23,11 @@
     "static/media/C.png": "/resume-website/static/media/C.bbbbbabc8c191bfb99bf.png",
     "static/media/java.png": "/resume-website/static/media/java.6c64373d3b7415758078.png",
     "index.html": "/resume-website/index.html",
-    "main.3509241a.css.map": "/resume-website/static/css/main.3509241a.css.map",
+    "main.b3e2a37d.css.map": "/resume-website/static/css/main.b3e2a37d.css.map",
     "main.832cb49b.js.map": "/resume-website/static/js/main.832cb49b.js.map"
   },
   "entrypoints": [
-    "static/css/main.3509241a.css",
+    "static/css/main.b3e2a37d.css",
     "static/js/main.832cb49b.js"
   ]
 }
