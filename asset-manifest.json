@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/resume-website/static/css/main.3509241a.css",
+    "main.js": "/resume-website/static/js/main.832cb49b.js",
+    "static/media/SecurityCam4.png": "/resume-website/static/media/SecurityCam4.e3cc3251d486a36124c1.png",
+    "static/media/SecurityCam.png": "/resume-website/static/media/SecurityCam.8e6e11948d8312baf50f.png",
+    "static/media/mask.png": "/resume-website/static/media/mask.a6e1b994d9bd66de75a9.png",
+    "static/media/SecurityCam3.png": "/resume-website/static/media/SecurityCam3.42f7215b2cfded857a00.png",
+    "static/media/Andrew.jpg": "/resume-website/static/media/Andrew.459fcaa31083f5d5f868.jpg",
+    "static/media/SecurityCam2.png": "/resume-website/static/media/SecurityCam2.bbffdebc3a7977e43a27.png",
+    "static/media/c++.png": "/resume-website/static/media/c++.666af1b3598c92045b63.png",
+    "static/media/python.png": "/resume-website/static/media/python.c44b9b809ebf766cbb4f.png",
+    "static/media/pic5.png": "/resume-website/static/media/pic5.20a8b0af2b3eafb22996.png",
+    "static/media/pic4.png": "/resume-website/static/media/pic4.7eb683ab52a71aa7c397.png",
+    "static/media/pic3.png": "/resume-website/static/media/pic3.2232d922f88c655c88b9.png",
+    "static/media/react.png": "/resume-website/static/media/react.81ed438b18e24116794d.png",
+    "static/media/pic2.png": "/resume-website/static/media/pic2.2daab528604153edc956.png",
+    "static/media/pic1.png": "/resume-website/static/media/pic1.6fdbd0d781bc7c9f0748.png",
+    "static/media/css.png": "/resume-website/static/media/css.19c8605d6b2861f5fbe0.png",
+    "static/media/backgroundnice.jpg": "/resume-website/static/media/backgroundnice.da8f3f354723933feee5.jpg",
+    "static/media/javascript.png": "/resume-website/static/media/javascript.dd49336437d9194e4d2d.png",
+    "static/media/html.png": "/resume-website/static/media/html.7296a57e7e1593d080fa.png",
+    "static/media/C.png": "/resume-website/static/media/C.bbbbbabc8c191bfb99bf.png",
+    "static/media/java.png": "/resume-website/static/media/java.6c64373d3b7415758078.png",
+    "index.html": "/resume-website/index.html",
+    "main.3509241a.css.map": "/resume-website/static/css/main.3509241a.css.map",
+    "main.832cb49b.js.map": "/resume-website/static/js/main.832cb49b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3509241a.css",
+    "static/js/main.832cb49b.js"
+  ]
+}
