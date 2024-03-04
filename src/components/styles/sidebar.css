@@ -1,0 +1,67 @@
+.logo{
+    position: absolute;
+    top:13px;
+    left: 2vh;
+    color: white;
+    background-color: transparent;
+    background: none;
+    font-family: cursive;
+    font-size: 60px;
+    margin: 0px 0px;
+
+}
+.sideBarContainer{
+    position: fixed;
+    height: 100%;
+    width: 300px;
+    right: 0px;
+    top:0px;
+    z-index: 1;
+    background: linear-gradient(to bottom, #5C84B2,black, black);
+
+    transform: translateX(300px);
+    transition: transform 0.7s;
+
+
+}
+.sideBarContainer-slide{
+    transform: translateX(0px);
+}
+.menuOptions{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25vh;
+    gap: 20px;
+    list-style: none;
+}
+.menuOptions li button{
+    width: 240px;
+    padding:15px 0px;
+    border-radius: 120px;
+    background: linear-gradient(to bottom right, #5C84B2,black,black,#5C84B2);
+    background-position: 20% 50%;
+    color: beige;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s;
+}
+.menuOptions li button:hover{
+    transform: translateY(-6px);
+
+}
+.menuContainer{
+    transition: opacity 1s;
+}
+.hide{
+    opacity: 0;
+}
+.copyRight{
+    position: absolute;
+    color: beige;
+    left:auto;
+    left:80px;
+    bottom:10px;
+    
+}

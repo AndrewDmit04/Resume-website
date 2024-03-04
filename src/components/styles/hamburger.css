@@ -1,0 +1,39 @@
+.hamburgerMenu{
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(to bottom, black, #5C84B2);
+    background-position: 20% 200%;
+    position: fixed;
+    right: 20px;
+    top:30px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    z-index: 2;
+    transition: transform 0.8s;
+}
+.hamburgerMenu:hover{
+    transform: translateY(-5px);
+}
+.hamburgerMenu span{
+    width: 40px;
+    height: 5px;
+    background-color: beige;
+    transition: all 0.5s;
+}
+.bar1{
+    transform: rotate(45deg);
+    position: absolute;
+}
+.bar2{
+    opacity: 0;
+}
+.bar3{
+    transform: rotate(-45deg);
+    position: absolute;
+}
+

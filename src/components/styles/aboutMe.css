@@ -1,0 +1,35 @@
+.aboutMe{
+    display: flex;
+    flex-direction: row;
+    padding: 50px 30px;
+    justify-content: space-between;
+    margin-top: 20vh;
+    
+}
+.col1{
+    flex-basis: 35%;
+}
+.col2{
+    color:#5C84B2;
+    flex-basis: 60%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px;
+    font-family: monospace;
+    font-size: 22px;
+
+}
+.col2 p{
+    font-size: 17px;
+    line-height: 1.5em;
+}
+.aboutMePhoto{
+    width: 100%;
+    border-radius: 40px;
+}
+@media screen and (max-width: 900px){
+    .aboutMe{
+        flex-direction: column;
+    }
+}

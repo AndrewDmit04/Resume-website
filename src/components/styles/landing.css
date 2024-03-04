@@ -1,0 +1,68 @@
+body{
+    background: linear-gradient(to bottom right, #08362E, #1c0836);
+    margin: 0px 0px;
+    width: 100%;
+}
+.canvas{
+    position: absolute;
+    z-index: 0;
+}
+.Landing{
+    width: 100%;
+    height: 100vh;
+    background-image: url('./images/backgroundnice.jpg');
+    background-size: cover;
+    background-color: black;
+    background-position: center;
+    display: flex; 
+    align-items: top;
+    
+
+}
+
+.welcomeText{
+    color:#5C84B2;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 140px;
+    margin-right:auto;
+    margin-left: 15vh;
+    margin-top:23vh
+
+}
+.cursor{
+    color:white;
+    animation: blink 0.7s linear infinite;
+    margin-right: 0;
+    
+}
+
+
+@keyframes blink{
+    0%{
+        opacity: 0%;
+    }
+    50%{
+        opacity: 100%;
+    }
+    100%{
+        opacity: 0%;
+    }
+}
+
+@media screen and  (max-width: 800px){
+    .welcomeText{
+        font-size: 100px;
+    }
+}
+@media screen and  (max-width: 600px){
+    .welcomeText{
+        font-size: 80px;
+        margin-left: 80px;
+    }
+}
+@media screen and  (max-width: 450px){
+    .welcomeText{
+        font-size: 60px;
+        margin-left: 40px;
+    }
+}
