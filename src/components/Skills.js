@@ -1,4 +1,4 @@
-import React, {useState,useEffect, useRef} from 'react'
+import React, {useEffect, useRef} from 'react'
 import { motion, useAnimation, useInView} from 'framer-motion';
 import './styles/skills.css'
 import titleIcon from './styles/images/skills.png'
@@ -30,11 +30,11 @@ export default function Skills(){
         animate={maintControls}
         transition={{duration : 0.5, delay : 0.1}}
         id="Skills" className='skills'>
-            <h1 style={{textAlign: "center",}}><img style={titleIconStyle} src={titleIcon}/> Skills and Technologies <img  style={titleIconStyle} src={titleIcon}/></h1>
+            <h1 style={{textAlign: "center",}}><img alt='title' style={titleIconStyle} src={titleIcon}/> Skills and Technologies <img alt='title' style={titleIconStyle} src={titleIcon}/></h1>
             <div className='skills-grid'>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={python} style={iconStyle}/>
+                        <img alt="python"src={python} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         Python
@@ -43,7 +43,7 @@ export default function Skills(){
                 
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={java} style={iconStyle}/>
+                        <img alt="java"src={java} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         Java
@@ -51,7 +51,7 @@ export default function Skills(){
                 </div>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={c} style={iconStyle}/>
+                        <img alt="c"src={c} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         C++
@@ -60,7 +60,7 @@ export default function Skills(){
 
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={react} style={iconStyle}/>
+                        <img alt='react' src={react} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         React
@@ -68,7 +68,7 @@ export default function Skills(){
                 </div>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={javascript} style={iconStyle}/>
+                        <img alt='javascript' src={javascript} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         JavaScript
@@ -76,7 +76,7 @@ export default function Skills(){
                 </div>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={html} style={iconStyle}/>
+                        <img alt='html' src={html} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         HTML
@@ -84,7 +84,7 @@ export default function Skills(){
                 </div>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={C} style={iconStyle}/>
+                        <img alt='C' src={C} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         C
@@ -92,7 +92,7 @@ export default function Skills(){
                 </div>
                 <div class="skill"> 
                     <div className='icon'>
-                        <img src={css} style={iconStyle}/>
+                        <img alt='css' src={css} style={iconStyle}/>
                     </div>
                     <div className='text'>
                         CSS
