@@ -115,15 +115,14 @@ export default function Contact(){
                         <a className="contactP" href="https://github.com/AndrewDmit04" target='_blank'>github.com/AndrewDmit04</a>
                     </div>
                     <div className='contactLink'>
-                        <a className='contactIcon'>
+                        <a href='mailto:AndrewDmit2021@gmail.com' className='contactIcon'>
                             <img style={{width : "100%"}} src={mail}></img>
                         </a>
-                        <p>AndrewDmit2021@gmail.com</p>
+                        <a className="contactP" href='mailto:AndrewDmit2021@gmail.com'>AndrewDmit2021@gmail.com</a>
                     </div>
     
                 </div>
                 <p style={{color: "white", marginTop: "50px"}}>&copy; All rights reserved</p>
-
         </motion.div>
     )
 }

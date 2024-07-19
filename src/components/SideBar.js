@@ -1,6 +1,6 @@
 import React from 'react'
 import './styles/sidebar.css'
-export default function SideBar({isRendered}){
+export default function SideBar({isRendered,setActive}){
     const logoStyle = {color:'#3322b6'}
     const logoStyle1 = {color: 'beige'}
     
@@ -10,6 +10,7 @@ export default function SideBar({isRendered}){
         if (element) {
           element.scrollIntoView({ behavior: 'smooth' });
         }
+        setActive(false);
       };
     
     return(
@@ -17,7 +18,7 @@ export default function SideBar({isRendered}){
             <div className={isRendered ? 'menuContainer' : 'menuContainer hide'}>
                 <h1 className="logo"><span style={logoStyle}>A</span><span style={logoStyle1}>D</span></h1>
                 <ul className='menuOptions'>
-                    <li><button onClick={() => scrollToComponent("Home")}>Home</button></li>
+                    <li><button onClick={() => scrollToComponent("Home",isRendered)}>Home</button></li>
                     <li><button onClick={() => scrollToComponent("AboutMe")}>About Me</button></li>
                     <li><button onClick={() => scrollToComponent("Projects")}>Projects</button></li>
                     <li><button onClick={() => scrollToComponent("Skills")}>Skills</button></li>

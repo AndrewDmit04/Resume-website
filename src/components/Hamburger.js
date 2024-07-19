@@ -10,7 +10,7 @@ export default function Hamburger(){
     
     return(
         <div>   
-            <SideBar isRendered={active}/>
+            <SideBar isRendered={active} setActive={setActive}/>
             <div className="hamburgerMenu" onClick={changesState}>
                 <span className={active ? 'bar1' : ''}></span>
                 <span className={active ? 'bar2' : ''}></span>

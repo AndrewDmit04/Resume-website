@@ -2,9 +2,8 @@ import React, {useState,useEffect, useRef} from 'react'
 import { motion, useInView,useAnimation} from 'framer-motion';
 import "./styles/Projects.css"
 import github from './styles/images/Github.png'
-import coverImg from './images/SecurityCam.png'
 import ProjectCard from './ProjectCard';
-import projects from './projectsList'
+import projects from './constants/projectsList'
 
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -29,8 +28,6 @@ const responsive = {
 };
 
 export default function Projects(){
-
-
     const ref = useRef(null)
     const isInView = useInView(ref, {once : true ,amount : 0.5})
     const mainControls = useAnimation()
@@ -74,15 +71,8 @@ export default function Projects(){
                             description={project.description}
                         ></ProjectCard>
                     ))}
-                    
-
-
-
-
-
                 </Carousel>;
             </div>
-
         </motion.div>
         
     )

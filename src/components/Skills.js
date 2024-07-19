@@ -1,15 +1,9 @@
 import React, {useEffect, useRef} from 'react'
-import { motion, useAnimation, useInView} from 'framer-motion';
+import { DeprecatedLayoutGroupContext, motion, useAnimation, useInView} from 'framer-motion';
 import './styles/skills.css'
 import titleIcon from './styles/images/skills.png'
-import python from './icons/python.png'
-import react from './icons/react.png'
-import C from './icons/C.png'
-import c from './icons/c++.png'
-import css from './icons/css.png'
-import html from './icons/html.png'
-import java from './icons/java.png'
-import javascript from './icons/javascript.png'
+import SkillCard from './skillsCard';
+import skillsList from './constants/skillsList';
 
 export default function Skills(){
     const titleIconStyle = {width : "7%", transform: "translateY(4px)"}
@@ -32,74 +26,10 @@ export default function Skills(){
         id="Skills" className='skills'>
             <h1 style={{textAlign: "center",}}><img alt='title' style={titleIconStyle} src={titleIcon}/> Skills and Technologies <img alt='title' style={titleIconStyle} src={titleIcon}/></h1>
             <div className='skills-grid'>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt="python"src={python} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        Python
-                    </div>
-                </div>
-                
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt="java"src={java} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        Java
-                    </div>
-                </div>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt="c"src={c} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        C++
-                    </div>
-                </div>
-
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt='react' src={react} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        React
-                    </div>
-                </div>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt='javascript' src={javascript} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        JavaScript
-                    </div>
-                </div>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt='html' src={html} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        HTML
-                    </div>
-                </div>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt='C' src={C} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        C
-                    </div>
-                </div>
-                <div class="skill"> 
-                    <div className='icon'>
-                        <img alt='css' src={css} style={iconStyle}/>
-                    </div>
-                    <div className='text'>
-                        CSS
-                    </div>
-                </div>
+                {skillsList.map((skill,index) =>(
+                    <SkillCard id={index} skillName={skill.skillName} image={skill.img}></SkillCard>
+                ))}
             </div>
-
         </motion.div>
     )
 }

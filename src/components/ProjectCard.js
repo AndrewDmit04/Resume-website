@@ -13,5 +13,4 @@ export default function ProjectCard({title, description, image, gifImage}){
         <p>{description}</p>
     </div>
     )
-
 }
