@@ -10,11 +10,11 @@ import javascript from '../icons/javascript.png'
 const skillsList = 
 [
     {
-        "skillName" : "python",
+        "skillName" : "Python",
         "img" : python
     },
     {
-        "skillName" : "react",
+        "skillName" : "React",
         "img" : react
     },
     {
@@ -26,19 +26,19 @@ const skillsList =
         "img" : c
     },
     {
-        "skillName" : "css",
+        "skillName" : "CSS",
         "img" : css
     },
     {
-        "skillName" : "html",
+        "skillName" : "HTML",
         "img" : html
     },
     {
-        "skillName" : "java",
+        "skillName" : "Java",
         "img" : java
     },
     {
-        "skillName" : "javascript",
+        "skillName" : "Javascript",
         "img" : javascript
     },
 
