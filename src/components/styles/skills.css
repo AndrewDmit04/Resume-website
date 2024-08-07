@@ -17,6 +17,7 @@
     align-items: center;
     padding: 25px 0px;
     width: 500px;
+    height: 30px;
     text-align: center;
     background: linear-gradient(to top left, #320e62,black,black, black, black, #5C84B2);
     border-radius: 10px;

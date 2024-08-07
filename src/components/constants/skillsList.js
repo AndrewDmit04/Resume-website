@@ -6,6 +6,10 @@ import css from '../icons/css.png'
 import html from '../icons/html.png'
 import java from '../icons/java.png'
 import javascript from '../icons/javascript.png'
+import flutter from '../icons/Flutter.png'
+import SQL from '../icons/SQL.png'
+import Dart from '../icons/Dart.png'
+import firebase from '../icons/firebase.png'
 
 const skillsList = 
 [
@@ -41,6 +45,23 @@ const skillsList =
         "skillName" : "Javascript",
         "img" : javascript
     },
+    {
+        "skillName" : "Flutter",
+        "img" : flutter
+    },
+    {
+        "skillName" : "SQL",
+        "img" : SQL
+    },
+    {
+        "skillName" : "Dart",
+        "img" : Dart
+    },
+    {
+        "skillName" : "Firebase",
+        "img" : firebase
+    },
+
 
 ]
 

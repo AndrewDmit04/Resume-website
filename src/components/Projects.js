@@ -1,4 +1,4 @@
-import React, {useState,useEffect, useRef} from 'react'
+import React, {useEffect, useRef} from 'react'
 import { motion, useInView,useAnimation} from 'framer-motion';
 import "./styles/Projects.css"
 import github from './styles/images/Github.png'
@@ -35,7 +35,7 @@ export default function Projects(){
         if(isInView){
             mainControls.start("visible")
         }
-    },[isInView])
+    },[isInView,mainControls])
     return(
         <motion.div
         ref={ref}
@@ -45,9 +45,9 @@ export default function Projects(){
         transition={{duration : 0.5, delay : 0.1}}
         id="Projects" className='projectsContainer'>
             <h1 className='projectsTitle'>
-                <img  className="gitIcon" src={github}></img>
+                <img alt="githubIcon" className="gitIcon" src={github}></img>
                 Projects
-                <img className="gitIcon" src={github}></img>
+                <img alt="githubIcon" className="gitIcon" src={github}></img>
             </h1>
             <div className='projectDisplay'>
                 <Carousel    swipeable={true}
