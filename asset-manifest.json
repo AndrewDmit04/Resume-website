@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.c409956b.css",
-    "main.js": "./static/js/main.ca450673.js",
+    "main.css": "./static/css/main.189e6874.css",
+    "main.js": "./static/js/main.6b759399.js",
     "static/media/FlutterAppdisplay.gif": "./static/media/FlutterAppdisplay.06727528fa7e83f2b5b1.gif",
     "static/media/vidGif.gif": "./static/media/vidGif.e83082e46c4c49936dba.gif",
     "static/media/mask.png": "./static/media/mask.a6e1b994d9bd66de75a9.png",
@@ -23,11 +23,11 @@
     "static/media/java.png": "./static/media/java.6c64373d3b7415758078.png",
     "static/media/revicons.woff": "./static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "./index.html",
-    "main.c409956b.css.map": "./static/css/main.c409956b.css.map",
-    "main.ca450673.js.map": "./static/js/main.ca450673.js.map"
+    "main.189e6874.css.map": "./static/css/main.189e6874.css.map",
+    "main.6b759399.js.map": "./static/js/main.6b759399.js.map"
   },
   "entrypoints": [
-    "static/css/main.c409956b.css",
-    "static/js/main.ca450673.js"
+    "static/css/main.189e6874.css",
+    "static/js/main.6b759399.js"
   ]
 }
