@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import confetti from 'canvas-confetti';
-import './styles/Welcome.css';
+import '../styles/Welcome.css';
 
 export default function Welcome(){
     const rainbowColors = [
@@ -30,7 +30,7 @@ export default function Welcome(){
 
     const [currentText, setCurrentText] = useState({ part1: '', part2: '', part3: "" });
     const [currentIndex, setCurrentIndex] = useState({ partt1: 0, partt2: 0, partt3: 0 });
-    const [cursorStyle, setCursorStyle] = useState({ color: "#5C84B2" });
+    const [cursorStyle, setCursorStyle] = useState({ color: "Black" });
     const [fired, setFired] = useState(false);
     const [isRainbow, setIsRainbow] = useState(true); // State to trigger rainbow effect
     let text1 = "Hello I'm ";

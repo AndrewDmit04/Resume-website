@@ -1,11 +1,12 @@
 import React from 'react';
-import './styles/Welcome.css';
 import Welcome from './Welcome';
+import About from './About';
 
 export default function Sections() {
     return (
         <div className='col-lg-8 scrollable-section'>
             <Welcome/>
+            <About/>
         </div>
     );
 }

@@ -1,7 +1,7 @@
 import React , {useEffect,useState} from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Profile from './components/Profile';
-import Sections from './components/Sections';
+import Sections from './components/Sections/Sections';
 
 function App() {
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
