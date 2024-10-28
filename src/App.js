@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React , {useEffect,useState} from 'react'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Profile from './components/Profile';
+import Sections from './components/Sections';
 
 function App() {
+  const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
+
+  // Function to update cursor position based on mouse movement
+  const handleMouseMove = (e) => {
+    setCursorPosition({ x: e.clientX, y: e.clientY });
+  };
+
+  // Attach the mouse move event listener
+  useEffect(() => {
+    document.addEventListener('mousemove', handleMouseMove);
+    // Clean up the event listener when the component unmounts
+    return () => {
+      document.removeEventListener('mousemove', handleMouseMove);
+    };
+  }, []);
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <div className="container-fluid content-container">
+              <div
+        className="custom-cursor"
+        style={{
+          left: `${cursorPosition.x}px`,
+          top: `${cursorPosition.y}px`,
+        }}
+      />
+        <div className='row h-100'>
+          <Profile/>
+          <Sections/>
+        </div>        
+      </div>
   );
 }
 

@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+.content-container {
+  height: 100vh;
+  overflow: hidden;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.scrollable-section {
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.custom-cursor {
+  position: absolute;
+  width: 100px;
+  height: 100px; /* Change the height to remove the circular shape */
+  border-radius: 50%; /* Slight rounded corners, but not fully circular */
+  border: none;
+  background: rgba(24, 140, 200, 0.2); /* More intense blue color with higher opacity */
+  box-shadow: 0 0 40px rgba(24, 140, 200, 0.4); /* Stronger blur effect with a deeper blue */
+  pointer-events: none; 
+  transform: translate(-50%, -50%);
+  transition: background 0.15s ease, box-shadow 0.15s ease;
+  z-index: 1000;
+}
