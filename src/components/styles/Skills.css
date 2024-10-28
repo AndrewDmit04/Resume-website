@@ -1,0 +1,57 @@
+.skill-bar {
+    height: 10px;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    background-color: #e9ecef;
+}
+.skill-progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 1.5s ease-in-out;
+}
+.skill-category {
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    background-color: #f8f9fa;
+    transition: all 0.3s ease;
+}
+.skill-category:hover {
+    background-color: #e9ecef;
+}
+.skill-content {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out;
+}
+.seen{
+    max-height: 500px; 
+    transition: max-height 0.5s ease-in;
+    overflow: hidden;
+}
+
+.skill-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.skill-header i {
+    transition: transform 0.3s ease;
+}
+.skill-category.active .skill-header i {
+    transform: rotate(180deg);
+}
+@keyframes slideIn {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+.section-card {
+    animation: slideIn 0.5s ease-out;
+}
