@@ -2,7 +2,10 @@ import python from '../images/skills/python.png'
 import react from '../images/skills/react.png'
 import C from '../images/skills/C.png'
 import c from '../images/skills/c++.png'
-// import css from '../images/skills/css.png'
+import git from '../images/skills/git.png'
+import flask from '../images/skills/flask.png'
+import docker from '../images/skills/docker.png'
+import bootstrap from '../images/skills/bootstrap.png'
 import html from '../images/skills/html.png'
 import java from '../images/skills//java.png'
 import javascript from '../images/skills/javascript.png'
@@ -63,7 +66,7 @@ const skillsList = [
             {
                 "skillName" : "Bootstrap",
                 "percent" : 80,
-                "img" : react
+                "img" : bootstrap
             },
             {
                 "skillName" : "Flutter",
@@ -89,7 +92,7 @@ const skillsList = [
             {
                 "skillName" : "Flask",
                 "percent" : 55,
-                "img" : firebase
+                "img" : flask
             },
 
         ]
@@ -100,17 +103,12 @@ const skillsList = [
             {
                 "skillName" : "Git",
                 "percent" : 90,
-                "img" : SQL
-            },
-            {
-                "skillName" : "UML",
-                "percent" : 85,
-                "img" : SQL
+                "img" : git
             },
             {
                 "skillName" : "Docker",
                 "percent" : 50,
-                "img" : firebase
+                "img" : docker
             },
         ]
     },
