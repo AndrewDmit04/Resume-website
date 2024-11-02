@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-export default function Skill({img, Name,Percent, className}){
+export default function Skill({img, Name,Percent}){
     return(
         <div>
             <div className="d-flex justify-content-between mb-1">

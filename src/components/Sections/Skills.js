@@ -22,7 +22,7 @@ export default function Skills() {
                             activeIndex={activeIndex}
                             handleCategoryClick={handleCategoryClick}
                             index={i}
-                            id={i}
+                            key={i}
                             />) 
                     }
             </div>

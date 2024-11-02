@@ -29,7 +29,7 @@ export default function Section({SectionName, Skills, activeIndex,handleCategory
         </div>
         <div className={activeIndex === index ? 'seen' : 'skill-content'}>
             <div className="mt-3">
-                {Skills.map((n,i) => <Skill id={i} Name={n.skillName} img={n.img} Percent={n.percent}/>)}
+                {Skills.map((n,i) => <Skill key={i} Name={n.skillName} img={n.img} Percent={n.percent}/>)}
             </div>
         </div>
     </div>
