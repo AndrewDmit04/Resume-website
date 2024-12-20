@@ -81,7 +81,7 @@ export default function Welcome(){
         </span>
     ));
     return(
-        <div className="container-fluid d-flex justify-content-center align-items-center vh-100">
+        <div className="container-fluid d-flex justify-content-center align-items-center vh-100 flex-column position-relative">
             <div className="text-center">
                 <h1 className="Welcome-Text">
                     {currentText.part1}
@@ -91,6 +91,9 @@ export default function Welcome(){
                     {currentText.part3}
                     <span style={cursorStyle} className='cursor'>|</span>
                 </h1>
+            </div>
+            <div className='indication'>
+                <span>&darr;</span>
             </div>
         </div>
     )

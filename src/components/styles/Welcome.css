@@ -24,7 +24,21 @@
     color: black;
     animation: blink 0.5s infinite
 }
+.indication{
+    position: absolute;
+    bottom: 10px;
+    font-size: 60px;
+    animation: updown ease-in-out 2.2s infinite;
+}
 
+@keyframes updown {
+    0%,100%{
+        transform: translateY(10px);
+    }
+    50%{
+        transform: translateY(0px);
+    }
+}
 @keyframes blink {
     0%,100%{
         opacity: 100%;
