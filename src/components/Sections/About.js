@@ -22,7 +22,7 @@ export default function About(){
                     
                     <div className="experience-item hover-target">
                         <span className="date-badge bg-primary text-white">May 2024 - Present</span>
-                        <h6 className="company-name mb-1">Icode</h6>
+                        <h6 className="company-name mb-1">iCode</h6>
                         <div className="fw-bold mb-1">Programing Instructor</div>
                         <p className="mb-0 text-muted">Teaching and Mentortring students in proggraming</p>
                     </div>

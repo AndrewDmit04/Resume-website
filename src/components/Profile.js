@@ -13,7 +13,7 @@ export default function Profile(){
                         
                         <div className=' d-flex flex-column justify-content-center align-items-center col-lg-12 col-md-12 col-sm-6 col-6'>
                             <h5  className="card-title col-12">Andrew Dmitrievsky</h5>
-                            <p className="text-muted col-12 ">Web Developer</p>
+                            <p className="text-muted col-12 ">Full Stack Web Developer</p>
                         </div>
 
                         <div className='d-flex flex-column gap-1  flex-lg-row flex-md-row gap-lg-2 gap-md-2 justify-content-center align-items-center col-lg-12 col-md-12 col-sm-3 col-3'>
