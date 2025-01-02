@@ -13,6 +13,7 @@ import flutter from '../images/skills/Flutter.png'
 import SQL from '../images/skills/SQL.png'
 import Dart from '../images/skills/Dart.png'
 import firebase from '../images/skills/firebase.png'
+import tailwind from '../images/skills/tailwind.png'
 
 const skillsList = [
     {
@@ -55,14 +56,20 @@ const skillsList = [
         "skills" : [
             {
                 "skillName" : "HTML/CSS",
-                "percent" : 95,
+                "percent" : 100,
                 "img" : html
+            },
+            {
+                "skillName" : "TailWind",
+                "percent" : 100,
+                "img" : tailwind
             },
             {
                 "skillName" : "React",
                 "percent" : 90,
                 "img" : react
             },
+
             {
                 "skillName" : "Bootstrap",
                 "percent" : 80,
