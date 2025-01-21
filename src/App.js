@@ -1,7 +1,8 @@
 import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Profile from './components/Profile';
-import Sections from './components/Sections';
+// import Profile from './components/Profile';
+// import Sections from './components/Sections';
+import PageMoved from './PageMoved';
 
 function App() {
   // const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -30,8 +31,7 @@ function App() {
         }}
       /> */}
         <div className='row h-100'>
-          <Profile/>
-          <Sections/>
+            <PageMoved newUrl='https://www.andrewdmitrievsky.com/'/>
         </div>        
       </div>
   );
